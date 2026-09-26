@@ -775,6 +775,14 @@ button, input, textarea, select { font: inherit; }
   line-height: 1.65;
 }
 
+.why .evidenceList {
+  color: #eef4ef;
+}
+
+.why .evidenceList li::marker {
+  color: var(--lime);
+}
+
 .sourceLinks {
   display: flex;
   gap: 14px;
