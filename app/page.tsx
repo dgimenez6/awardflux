@@ -97,7 +97,7 @@ export default function Home() {
                 <Check /> First SBIR award detected
               </p>
               <p>
-                <Check /> New accounting &amp; timekeeping requirements
+                <Check /> Accounting &amp; timekeeping requirements to address
               </p>
               <p>
                 <Check /> Small team with limited back-office capacity
@@ -192,10 +192,10 @@ export default function Home() {
         <div className="ctaCard">
           <div>
             <div className="kicker light">Private early access</div>
-            <h2>See the current opportunities before we build the full platform.</h2>
+            <h2>See the current opportunities before your competitors do.</h2>
             <p>
-              We are validating AwardFlux with a small group of firms. Ask for
-              the current batch and judge the signal quality yourself.
+              AwardFlux is in private early access. Ask for the current batch
+              and judge the signal quality yourself.
             </p>
           </div>
           <a
