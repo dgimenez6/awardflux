@@ -267,7 +267,7 @@ export default function Home() {
       <section className="pricing shell" id="pricing">
         <div className="sectionIntro narrow">
           <div className="kicker">Founding Access</div>
-          <h2>One plan while we prove the signal.</h2>
+          <h2>Simple founding pricing.</h2>
           <p>
             No annual contract, no credits, and no setup fee. Founding pricing
             stays locked while your subscription remains active.
