@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AwardFlux — Fresh federal award signals",
+  title: "AwardFlux — Post-award need intelligence",
   description:
-    "AwardFlux finds newly funded federal awardees and turns public award data into timely sales opportunities for accounting, compliance, and GovCon service firms.",
+    "AwardFlux turns fresh federal awards into verified sales signals for accounting, compliance, and GovCon service firms — with the evidence behind every why-now.",
 };
 
 export default function RootLayout({

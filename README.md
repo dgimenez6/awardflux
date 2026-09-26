@@ -1,32 +1,51 @@
 # AwardFlux
 
-AwardFlux turns fresh federal award data into timely sales opportunities for firms that serve newly funded government contractors.
+AwardFlux is a post-award need-intelligence product. The first commercial validation edition turns fresh federal awards into screened Accounting & Compliance sales signals for firms serving SBIR/STTR and GovCon customers.
 
-## Validation landing
+## Validation scope
 
-This repository currently contains the first validation landing page. The goal is intentionally narrow: establish a credible public presence, show the product concept, and support direct outreach before building a full SaaS.
+The current site intentionally includes only the commercial surface needed to validate willingness to pay:
 
-### Run locally
+- one-page positioning and pricing
+- three public sample signals
+- methodology and source transparency
+- minimal Privacy and Terms pages
+- Stripe-ready checkout route
+- responsive layout
+
+It intentionally does **not** include authentication, Supabase, CRM, dashboard, API, automated outreach, or a large ingestion engine.
+
+## Run locally
 
 ```bash
 npm install
-npm run dev
+npm run dev -- -p 3015
 ```
 
-Open http://localhost:3000.
+Open http://localhost:3015.
 
-### Build
+## Stripe
+
+All paid CTAs point to `/checkout`.
+
+Set the server environment variable below to the Stripe subscription Payment Link when it is created:
 
 ```bash
-npm run build
-npm start
+STRIPE_PAYMENT_LINK=https://buy.stripe.com/...
 ```
 
-## Current scope
+If the variable is not configured, `/checkout` safely returns visitors to the pricing section.
 
-- One-page marketing site
-- Responsive layout
-- Product signal example
-- Early-access CTA via `hello@awardflux.com`
+## Founding offer
 
-No authentication, database, dashboard, or billing integration is included yet. Those are deliberately deferred until commercial validation.
+**AwardFlux Accounting & Compliance — Founding Access**
+
+- $149/month
+- cancel anytime
+- fresh verified signals refreshed weekly
+- first-time awardees and phase transitions prioritized
+- service-fit and why-now analysis
+- official evidence
+- public business contact where officially available
+- CSV-ready fields
+- non-exclusive intelligence
