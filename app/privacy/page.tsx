@@ -14,8 +14,8 @@ export default function PrivacyPage() {
 
         <h2>Who this policy covers</h2>
         <p>
-          AwardFlux is operated by Damian Leonardo Gimenez in Rio de Janeiro,
-          Brazil. This policy describes how we handle information when you visit
+          AwardFlux is operated by Damian Leonardo Gimenez in the state of Rio de
+          Janeiro, Brazil. This policy describes how we handle information when you visit
           awardflux.com, contact us, or buy the AwardFlux subscription. You can
           reach us at
           {" "}<a href="mailto:hello@awardflux.com">hello@awardflux.com</a>.
