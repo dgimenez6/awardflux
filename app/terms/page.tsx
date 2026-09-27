@@ -12,6 +12,11 @@ export default function TermsPage() {
         <h1>Terms of Service</h1>
         <p>Last updated: September 26, 2026.</p>
 
+        <p>
+          AwardFlux is operated by Damian Leonardo Gimenez, based in Rio de
+          Janeiro, Brazil.
+        </p>
+
         <h2>Service</h2>
         <p>
           AwardFlux provides commercial intelligence derived from public award
@@ -73,14 +78,11 @@ export default function TermsPage() {
           checkout.
         </p>
         <p>
-          You can cancel at any time by emailing
-          {" "}<a href="mailto:hello@awardflux.com">hello@awardflux.com</a>.
-          Please request cancellation before your next renewal. We will confirm
-          when it has been processed; cancellation stops future renewals, and
-          access continues through the paid billing period. Unless required by
-          law or stated otherwise at checkout, fees already charged for a
-          billing period are not automatically refundable. Contact us if you
-          believe a charge was made in error.
+          You can cancel at any time through the Stripe subscription management
+          option provided after purchase. Stripe will show when the cancellation
+          takes effect. Cancel before the next renewal to avoid the next charge.
+          Unless required by law or stated otherwise at checkout, fees already
+          charged for a billing period are not automatically refundable.
         </p>
 
         <h2>Sources and availability</h2>
@@ -133,6 +135,13 @@ export default function TermsPage() {
         <p>
           AwardFlux is not affiliated with, endorsed by, or sponsored by the
           U.S. Government or any federal agency.
+        </p>
+
+        <h2>Governing law</h2>
+        <p>
+          These terms are governed by the laws of Brazil, subject to any
+          mandatory protections that apply in your location. Disputes will be
+          brought before a court with jurisdiction under applicable law.
         </p>
 
         <h2>Contact</h2>
