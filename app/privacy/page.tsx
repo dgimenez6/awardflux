@@ -14,10 +14,11 @@ export default function PrivacyPage() {
 
         <h2>Who this policy covers</h2>
         <p>
-          This policy describes how the operator of AwardFlux, reachable at
-          {" "}<a href="mailto:hello@awardflux.com">hello@awardflux.com</a>,
-          handles information when you visit awardflux.com, contact us, or buy
-          the AwardFlux subscription.
+          AwardFlux is operated by Damian Leonardo Gimenez in Rio de Janeiro,
+          Brazil. This policy describes how we handle information when you visit
+          awardflux.com, contact us, or buy the AwardFlux subscription. You can
+          reach us at
+          {" "}<a href="mailto:hello@awardflux.com">hello@awardflux.com</a>.
         </p>
 
         <h2>What we collect</h2>
