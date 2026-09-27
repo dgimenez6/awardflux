@@ -13,7 +13,7 @@ export default function TermsPage() {
         <p>Last updated: September 26, 2026.</p>
 
         <p>
-          AwardFlux is operated by Damian Leonardo Gimenez, based in Rio de
+          AwardFlux is operated by Damian Leonardo Gimenez, based in the state of Rio de
           Janeiro, Brazil.
         </p>
 
