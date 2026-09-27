@@ -25,7 +25,7 @@ const samples = [
     why: [
       "First SBIR award detected.",
       "NSF Phase I accounting and employee timekeeping guidance applies.",
-      "Very small reported team increases the relevance of external back-office support.",
+      "A very small reported team may increase the relevance of external back-office support.",
     ],
     awardSource: "https://www.sbir.gov/portfolio/2659728",
   },
