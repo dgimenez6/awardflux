@@ -30,7 +30,7 @@ export default function Home() {
         </nav>
 
         <a className="navCta" href="/signals">
-          See 3 current signals
+          See 3 sample signals
         </a>
       </header>
 
@@ -47,7 +47,7 @@ export default function Home() {
         </p>
         <div className="heroActions">
           <a className="button primary" href="/signals">
-            See 3 current signals
+            See 3 sample signals
           </a>
           <a className="button secondary" href="#pricing">
             View Founding Access
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
             <div className="freshness">
               <span className="pulse" />
-              Fresh award signal
+              Example award signal
             </div>
           </div>
 
@@ -134,7 +134,7 @@ export default function Home() {
 
         <div className="proofActions">
           <a className="textLink" href="/signals">
-            View 3 current sample signals →
+            View 3 sample signals →
           </a>
           <a className="textLink mutedLink" href="/methodology">
             See how we score signals
@@ -388,7 +388,7 @@ export default function Home() {
           </div>
           <div className="ctaButtons">
             <a className="button inverted" href="/signals">
-              See 3 current signals
+              See 3 sample signals
             </a>
             <CheckoutButton className="button ghostLight">
               Get Founding Access
