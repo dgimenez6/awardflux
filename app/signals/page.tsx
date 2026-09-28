@@ -60,7 +60,7 @@ export default function SignalsPage() {
       </header>
 
       <section className="subHero shell">
-        <div className="eyebrow">3 current sample signals</div>
+        <div className="eyebrow">3 sample signals</div>
         <h1>Judge the signal before you pay.</h1>
         <p>
           These examples show the type of public award event AwardFlux screens
